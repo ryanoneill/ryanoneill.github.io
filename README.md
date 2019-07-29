@@ -1,2 +1,0 @@
-# ryanoneill.github.io
-Blog
