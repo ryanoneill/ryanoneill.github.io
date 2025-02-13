@@ -1,6 +1,8 @@
 # The URL the site will be built for
 base_url = "https://ryanoneill.dev"
 
+title = "Ryan O'Neill | ryanoneill.dev"
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
@@ -16,9 +18,16 @@ highlight_code = true
 
 [extra]
 # Put all your custom variables here
+greeting = "Welcome!"
+links = [
+    { title = "Email", url = "mailto:ryanoneill@gmail.com", iconset = "fas", icon = "envelope" },
+    { title = "GitHub", url = "https://github.com/ryanoneill", icon = "github" },
+    { title = "BlueSky", url = "https://bsky.app/profile/ryanoneill.dev", iconset = "fas", icon = "comments" },
+]
 
 [extra.author]
-name = "Ryan"
+name = "Ryan O'Neill"
 
 [extra.theme]
 background = "#5e81ac"
+
